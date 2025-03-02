@@ -2,9 +2,22 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+.navbar {
+    background-color: #222;
+}
+
 .navbar-brand {
     font-size: 1.8rem;
     font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
 }
 
 .hero {
@@ -17,6 +30,10 @@ body {
 
 .hero h1 {
     font-size: 2.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .card {
@@ -30,4 +47,12 @@ body {
 .cart-btn {
     font-weight: bold;
     cursor: pointer;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
