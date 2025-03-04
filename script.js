@@ -23,6 +23,25 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // Signup Functionality
+    const signupForm = document.getElementById("signup-form");
+    if (signupForm) {
+        signupForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+            
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("signup-email").value;
+            const password = document.getElementById("signup-password").value;
+
+            if (name && email && password) {
+                alert("Signup successful! Please log in.");
+                window.location.href = "login.html";
+            } else {
+                alert("Please fill in all fields.");
+            }
+        });
+    }
+
     // Logout Functionality
     const logoutBtn = document.getElementById("logout-btn");
     if (logoutBtn) {
