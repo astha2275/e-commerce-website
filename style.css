@@ -49,7 +49,7 @@ body {
     cursor: pointer;
 }
 
-.login-container {
+.login-container, .signup-container {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
